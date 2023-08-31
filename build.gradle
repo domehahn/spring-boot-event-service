@@ -32,12 +32,12 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-amqp'
-    //implementation 'org.springframework.cloud:spring-cloud-config-client'
+    implementation 'org.springframework.cloud:spring-cloud-config-client'
     implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
     implementation 'org.springframework.cloud:spring-cloud-starter-consul-all'
     implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
     implementation 'org.springframework.boot:spring-boot-docker-compose'
-    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:4.0.1'
+    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
 
     runtimeOnly 'io.micrometer:micrometer-registry-prometheus'
 
