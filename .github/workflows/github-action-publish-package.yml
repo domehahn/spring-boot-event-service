@@ -9,7 +9,7 @@ env:
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
-  publish-config-server-image:
+  publish-event-service-image:
     runs-on: ubuntu-latest
 
     permissions:

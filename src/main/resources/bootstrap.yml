@@ -23,4 +23,4 @@ spring:
   config:
     import: "configserver:http://config-server:1234"
   main:
-      allow-bean-definition-overriding: true
+    allow-bean-definition-overriding: true
