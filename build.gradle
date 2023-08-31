@@ -43,7 +43,7 @@ dependencies {
     implementation "io.micrometer:micrometer-tracing-bridge-otel"
     implementation "io.opentelemetry:opentelemetry-exporter-otlp"
 
-    implementation 'io.github.openfeign:feign-micrometer:12.2'
+    implementation 'io.github.openfeign:feign-micrometer:12.5'
 
     implementation 'net.logstash.logback:logstash-logback-encoder:7.4'
 
