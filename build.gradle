@@ -1,7 +1,7 @@
 plugins {
     id 'java'
     id 'org.springframework.boot' version '3.1.3'
-    id 'io.spring.dependency-management' version '1.1.0'
+    id 'io.spring.dependency-management' version '1.1.3'
     id 'com.google.cloud.tools.jib' version "3.3.2"
 }
 
@@ -43,9 +43,9 @@ dependencies {
     implementation "io.micrometer:micrometer-tracing-bridge-otel"
     implementation "io.opentelemetry:opentelemetry-exporter-otlp"
 
-    implementation 'io.github.openfeign:feign-micrometer:12.2'
+    implementation 'io.github.openfeign:feign-micrometer:12.5'
 
-    implementation 'net.logstash.logback:logstash-logback-encoder:7.2'
+    implementation 'net.logstash.logback:logstash-logback-encoder:7.4'
 
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
